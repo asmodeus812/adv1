@@ -13,8 +13,7 @@
         "mousekey": true,
         "extrakey": true,
         "nkro": true,
-        "audio": false,
-        "backlight": false
+        "sleep_led": true
     },
     "indicators": {
         "caps_lock": "E6",
@@ -22,11 +21,6 @@
         "scroll_lock": "C6",
         "compose": "D7",
         "on_state": 0
-    },
-    "tapping": {
-        "term": 150,
-        "permissinve_hold": false,
-        "hold_on_other_key_press": true
     },
     "debounce": 10,
     "processor": "atmega32u4",

@@ -4,33 +4,18 @@
     "usb": {
         "vid": "0xFEED",
         "pid": "0x6060",
-        "device_version": "0.0.3"
+        "device_version": "0.0.1"
     },
     "features": {
         "bootmagic": true,
         "console": false,
-        "command": true,
+        "command": false,
         "mousekey": true,
         "extrakey": true,
-        "nkro": true,
-        "audio": false,
-        "backlight": false
+        "nkro": true
     },
-    "indicators": {
-        "caps_lock": "E6",
-        "num_lock": "D4",
-        "scroll_lock": "C6",
-        "compose": "D7",
-        "on_state": 0
-    },
-    "tapping": {
-        "term": 150,
-        "permissinve_hold": false,
-        "hold_on_other_key_press": true
-    },
-    "debounce": 10,
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "processor": "at90usb1286",
+    "bootloader": "halfkay",
     "layouts": {
         "LAYOUT": {
             "layout": [
@@ -50,8 +35,8 @@
                 {"matrix": [2, 4], "x": 12.03, "y": 0, "w": 0.69, "h": 0.85},
                 {"matrix": [1, 4], "x": 12.73, "y": 0, "w": 0.69, "h": 0.85},
                 {"matrix": [0, 5], "x": 13.42, "y": 0, "w": 0.69, "h": 0.85},
-                {"matrix": [12, 0], "x": 14.12, "y": 0, "w": 0.69, "h": 0.85},
-                {"matrix": [12, 1], "x": 14.81, "y": 0, "w": 0.69, "h": 0.85},
+                {"matrix": [8, 5], "x": 14.12, "y": 0, "w": 0.69, "h": 0.85},
+                {"matrix": [8, 4], "x": 14.81, "y": 0, "w": 0.69, "h": 0.85},
                 {"matrix": [8, 0], "x": 0, "y": 1.25, "w": 1.25},
                 {"matrix": [7, 0], "x": 1.25, "y": 1.25},
                 {"matrix": [6, 0], "x": 2.25, "y": 1},
