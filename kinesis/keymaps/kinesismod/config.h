@@ -1,7 +1,6 @@
 #pragma once
 
 #define QUICK_TAP_TERM 0
-#define TAPPING_TERM 150
+#define TAPPING_TERM 175
 #define TAPPING_TOGGLE 2
-// #define CAPS_WORD_INVERT_ON_SHIFT
 #define CAPS_WORD_IDLE_TIMEOUT 1500
